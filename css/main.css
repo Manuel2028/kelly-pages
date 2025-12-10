@@ -2575,7 +2575,13 @@ input, select, textarea {
 				}
 
 /* Image */
-
+	img{
+		width: 280px;
+		height: 280px;
+		margin-left: 13%;
+		margin-top: 8%;
+					
+	}
 	.image {
 		border-radius: 0.25em;
 		border: 0;
