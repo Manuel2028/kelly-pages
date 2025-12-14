@@ -3788,7 +3788,7 @@ input, select, textarea {
 }
 
 .is-menu-visible #wrapper {
-    transform: translateX(80%);
+    transform: translateX(99%);
     transition: transform 0.35s ease;
 }
 
