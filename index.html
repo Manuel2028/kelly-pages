@@ -3,32 +3,31 @@
 
   <head>
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
-    <title>Kelly Cabrera</title>
+    <title>Kelly's Food</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="robots" content="index, follow">
     <meta name="author" content="Manuel Castaño">
     <meta name="description" content="Eres de Barranquilla o Soledad y quieres difrutar estas fiestas con un pastel de arroz, una hayaca y porque no, con fuegos artificiales. Entra Aquí y pide el tuyo ya mismo">
     <meta name="keywords" content="Navidad, navidad, Soledad, soledad, Barranquilla, barranquilla, Karime, Cabrera, Kelly Cabrera, Restaurante Kelly, Kelly food">
     <link rel="stylesheet" href="css/main.css">
+    <script src="https://kit.fontawesome.com/05ea100991.js" crossorigin="anonymous"></script>
     <noscript><link rel="stylesheet" href="./css/noscript.css"></noscript>
-    <link rel="icon" href="img/kcabrerablackcircle.ico">
+    <link rel="icon" href="img/icons/kellysfood_redondo_sinfondo.ico">
   </head>
   <body class="is-preload">
     <!-- Sidebar -->
     
     <section id="sidebar">
 
-      
-      
       <div class="inner">
+        <i id="menu-close" class="fas fa-times"></i>
         <nav>
           <ul>
                 <!-- <img src="img/KCabreraBlack_sinfondo.png" alt="Logo" > -->
                 <li><a href="#intro" data-section="sectLista" data-value="ini">Inicio</a></li>
-                <li><a href="#one" data-section="sectLista" data-value="qs">Quienes Somos</a></li>
-                <li><a href="#two" data-section="sectLista" data-value="ini">Servicios</a>
-                <ul><a href="services/kfood.html">Kelly's Food</a></ul></li>
-                <li><a href="#three" data-section="sectLista" data-value="ini">Contacto</a></li>
+                <li><a href="#one" data-section="sectLista" data-value="qs">Quienes Somos</a></li>                
+                <li><a href="#two" data-section="sectLista" data-value="men">Menú</a>
+                <li><a href="#three" data-section="sectLista" data-value="ctc">Contacto</a></li>
           </ul>
         </nav>
       </div>
@@ -36,14 +35,14 @@
 
     <!-- Wrapper -->
     <div id="wrapper">
-      
+      <i href="#sidebar" id="menu-toggle" class="fas fa-bars"></i>
         <!-- Intro -->
         <section id="intro" class="wrapper style1 fullscreen fade-up" style="display: flex; flex-direction: column; margin-top: -50px;">
     
             <div class="inner" style="margin: auto;">
                 <div style=" margin-top: 8%; display: flex; flex-direction: column; align-items: center;">
         
-                    <h1 style="text-align: center; margin-bottom: 10px;" data-section="sectTituloP" data-value="titulo">Kelly Cabrera</h1>
+                    <h1 style="text-align: center; margin-bottom: 10px;" data-section="sectTituloP" data-value="titulo">Kelly's Food</h1>
                     <p style="text-align: center; margin-bottom: 10px;" data-section="sectTituloP" data-value="descripcion">¡Descubre todas las variedades que ofrecemos!</p>
                 </div>
             </div>
@@ -51,12 +50,12 @@
       
         <!-- One -->
         <section id="one" class="wrapper style1 spotlights">
-            <section> <img src="img/KCabreraBlack_fondo.png" alt="Logo" >
+            <section> <img src="img/logo/kellysfood_2.png" alt="Logo" >
                 <div class="content">
                     <div class="inner">
                         <h2 data-section="sectIntroduccion" data-value="introduccion">Quienes Somos</h2>
                         <p data-section="sectQS" data-value="descripcion2">
-                            Nuestro objetivo principal como Variedades Kelly es proporcionar una gama de productos seleccionados garantizando calidad
+                            Nuestro objetivo principal como <b>Kelly's Food</b> es proporcionar una gama de productos seleccionados garantizando calidad
                             y satisfacción en la atención para nuestros clientes. 
                         </p>
                     </div>
@@ -67,75 +66,143 @@
         <!-- Two -->
         <section id="two" class="wrapper style1 fade-up">
             <div class="inner">
-                <h2 data-section="sectExperiencias" data-value="experiencias">Servicios</h2>
-                <p data-section="sectExperiencias" data-value="descripcion3">
-                    Ofrecemos los productos a continuación:
+                <h2 data-section="sectMenu" data-value="menu">Menú</h2>
+                <p data-section="sectMenu" data-value="descripcion3">
+                    Conoce nuestros combos para <b>20 personas</b> a continuación:
                 </p>
+                <h2 id="tradLomo" data-section="expLomo">Tradicional de Lomo Relleno</h2>
                 <div class="features">
-                    <!-- <section>
-                        <img src="img/products/faroles.jpg" alt="Faroles_img" class="iProduct">
-                        <h3 data-section="expFaroles">Faroles</h3>
-                        <p class="description" data-section="expVelas" data-value="descripcion4">
-                            Decora y protege tus velitas con estos hermosos faroles.
-                        </p>
-                        <p class="price">$10.000 COP</p>
-                        <ul class="actions" style="display: flex; justify-content: center;">
-                            <li><a href="https://wa.me/+573043345430" class="button primary" style="font-size: 11px;" data-section="expFaroles" data-value="descripcion4_1">Pidelo Ahora</a></li>
-                        </ul>
-                    </section> -->
-                    <!-- <section>
-                        <img src="img/products/velitas.jpg" alt="Velas_img" class="iProduct">
-                        <h3 data-section="expVelas">Velas</h3>
-                            <p class="description" data-section="expVelas" data-value="descripcion5">
-                                Solicitalas para tu noche familiar.
-                            </p>
+                    <section id="sectionP">
+                        <div class="menu-item">
+                            <div>
+                                <img src="img/kfoodproducts/ensalada_mango.jpg" alt="EnsaladaMan_img" class="iProduct">
+                            </div>
+                            <div class="menu-text">
+                                <h3 data-section="expLomo">Entrada</h3>
+                                <p class="description" data-section="expLomo" data-value="descripcion4">
+                                    Ensalada de Mango
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="menu-item">
+                            <div>
+                                <img src="../img/kfoodproducts/lomo.jpg" alt="LomoCerdo_img" class="iProduct">
+                            </div>
+                            <div class="menu-text">
+                                <h3 data-section="expLomo">Plato Principal</h3>
+                                <p class="description" data-section="expLomo" data-value="descripcion5">
+                                    Lomo de Cerdo Relleno
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="menu-item">
+                            <div>
+                                <img src="../img/kfoodproducts/postre_napoleon.jpg" alt="PostreN_img" class="iProduct">
+                            </div>
+                            <div class="menu-text">
+                                <h3 data-section="expLomo">Postre</h3>
+                                <p class="description" data-section="expLomo" data-value="descripcion6">
+                                    Postre de Napoleón
+                                </p>
+                            </div>
+                        </div>
+                        
                         <p class="price">$ COP</p>
                         <ul class="actions" style="display: flex; justify-content: center;">
-                            <li><a href="https://wa.me/+573043345430" class="button primary" style="font-size: 11px;" data-section="expVelas" data-value="descripcion5_1">Pidelo Ahora</a></li>
-                        </ul>
-                    </section> -->
-                    <section>
-                        <img src="img/products/fuegos_art.jpg" alt="FuegosArt_img" class="iProduct">
-                        <h3 data-section="expFuegosArt">Fuegos Artificiales</h3>
-                        <p class="description" data-section="expFuegosArt" data-value="descripcion6">
-                            tipos: (especificar) <br>
-                            x ... (cantidad por paquete)
-                        </p>
-                        <p class="price">$ COP</p>
-                        <ul class="actions" style="display: flex; justify-content: center;">
-                            <li><a href="https://wa.me/+573043345430" class="button primary" style="font-size: 11px;" data-section="expFuegosArt" data-value="descripcion6_1">Pidelo Ahora</a></li>
+                            <li><a href="https://wa.me/+573243615639" class="button primary" style="font-size: 12px;" data-section="expLomo" data-value="descripcion6_1">Pidelo Ahora</a></li>
                         </ul>
                     </section>
-                    <section>
-                        <img src="img/products/hayaca.jpg" alt="Hayacas_img" class="iProduct">
-                        <h3 data-section="expHcas">Hayacas</h3>
-                        <p class="description" data-section="expHcas" data-value="descripcion7">
-                            Degusta tu paladar con estas deliciosas Hayacas
-                            x ... (cantidad)
-                        </p>
+                </div>
+                <h2 id="Proteina" data-section="expPosta">Tradicional de Posta Cartagenera</h2>
+                <div class="features">
+                    <section id="sectionP">
+                        <div class="menu-item">
+                            <div>
+                                <img src="img/kfoodproducts/ensalada-de-frutas.jpg" alt="EnsaladaFr_img" class="iProduct">
+                            </div>
+                            <div class="menu-text">
+                                <h3 data-section="expPosta">Entrada</h3>
+                                <p class="description" data-section="expPosta" data-value="descripcion7">
+                                    Ensalada de Futas
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="menu-item">
+                            <div>
+                                <img src="img/kfoodproducts/posta_cartagenera.jpg" alt="Posta_img" class="iProduct">
+                            </div>
+                            <div class="menu-text">
+                                <h3 data-section="expPosta">Plato Principal</h3>
+                                <p class="description" data-section="expPosta" data-value="descripcion8">
+                                    Posta Cartagenera
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="menu-item">
+                            <div>
+                                <img src="img/kfoodproducts/tiramisu.jpg" alt="postreTir_img" class="iProduct">
+                            </div>
+                            <div class="menu-text">
+                                <h3 data-section="expPosta">Postre</h3>
+                                <p class="description" data-section="expPosta" data-value="descripcion9">
+                                    Tiramisú
+                                </p>
+                            </div>
+                        </div>
+                        
                         <p class="price">$ COP</p>
                         <ul class="actions" style="display: flex; justify-content: center;">
-                            <li><a href="https://wa.me/+573043345430" class="button primary" style="font-size: 11px;" data-section="expHcas" data-value="descripcion7_1">Pidelo Ahora</a></li>
+                            <li><a href="https://wa.me/+573243615639" class="button primary" style="font-size: 12px;" data-section="expPosta" data-value="descripcion9_1">Pidelo Ahora</a></li>
                         </ul>
                     </section>
-                    <section>
-                        <img src="img/products/pastel_arroz.jpg" alt="Pasteles_img" class="iProduct">
-                        <h3 data-section="expPtles">Pasteles de arroz</h3>
-                        <p class="description" data-section="expPtles" data-value="descripcion8">
-                            Que mejor que estar este 24 de diciembre con estos ricos pasteles de pollo.
-                        </p>
+                </div>
+
+                <h2 id="Arroces" data-section="expArrozNav">Arroz Navideño</h2>
+                <div class="features">
+                    <section id="sectionP">
+                        <div class="menu-item">
+                            <div>
+                                <img src="img/kfoodproducts/ensalada_de_man_znahoria.jpg" alt="EnsaladaManZa_img" class="iProduct">
+                            </div>
+                            <div class="menu-text">
+                                <h3 data-section="expArrozNav">Entrada</h3>
+                                <p class="description" data-section="expArrozNav" data-value="descripcion10">
+                                    Ensalada de Manzana y Zanahoria
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="menu-item">
+                            <div>
+                                <img src="img/kfoodproducts/arroz_navideño.jpg" alt="ArrozNav_img" class="iProduct">
+                            </div>
+                            <div class="menu-text">
+                                <h3 data-section="expArrozNav">Plato Principal</h3>
+                                <p class="description" data-section="expArrozNav" data-value="descripcion11">
+                                    Arroz Navideño
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="menu-item">
+                            <div>
+                                <img src="img/kfoodproducts/buche_noel.jpg" alt="Buche_img" class="iProduct">
+                            </div>
+                            <div class="menu-text">
+                                <h3 data-section="expArrozNav">Postre</h3>
+                                <p class="description" data-section="expArrozNav" data-value="descripcion12">
+                                    Bûche de Noël
+                                </p>
+                            </div>
+                        </div>
+                        
                         <p class="price">$ COP</p>
                         <ul class="actions" style="display: flex; justify-content: center;">
-                            <li><a href="https://wa.me/+573043345430" class="button primary" style="font-size: 11px;" data-section="expPtles" data-value="descripcion8_1">Pidelo Ahora</a></li>
-                        </ul>
-                    </section>
-                    <section>
-                        <h2 data-section="expPtles">¡Fines de semana! <br> Kelly's Food</h2>
-                        <p class="description" data-section="expPtles" data-value="descripcion8">
-                            Estimado cliente. Te presentamos Kelly's Food. Una deliciosa alternativa para tus fines de semana, miralo ya a continuación.
-                        </p>
-                        <ul class="actions" style="display: flex; justify-content: center;">
-                            <li><a href="services/kfood.html" class="button primary" style="font-size: 11px;" data-section="expPtles" data-value="descripcion8_1">Aquí</a></li>
+                            <li><a href="https://wa.me/+573243615639" class="button primary" style="font-size: 12px;" data-section="expFuegosArt" data-value="descripcion12_1">Pidelo Ahora</a></li>
                         </ul>
                     </section>
                 </div>
@@ -159,7 +226,7 @@
                             </li>
                             <li>
                                 <h3 data-section="sectContactIng" data-value="whats">WhatsApp</h3>
-                                <a href="https://wa.me/+573043345430" data-section="sectContactIng" data-value="descripcionWhats">(+57) 3043345430</a>
+                                <a href="https://wa.me/+573243615639" data-section="sectContactIng" data-value="descripcionWhats">(+57) 3243615639</a>
                             </li>
                         </ul>
                     </section>
@@ -185,6 +252,7 @@
     <script src="js/browser.min.js"></script>
     <script src="./js/breakpoints.min.js"></script>
     <script src="./js/util.js"></script>
+    <script src="./js/menuhamb.js"></script>
     <script src="./js/main.js"></script>
     
   </body>
