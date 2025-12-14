@@ -3675,7 +3675,7 @@ input, select, textarea {
         justify-content: flex-start; 
     }
 	#sidebar nav ul {
-        display: block !important; /* Deshacemos el Flexbox horizontal */
+        display: block !important;
         height: auto !important;
         line-height: initial !important;
         margin: 0 !important;
@@ -3714,7 +3714,7 @@ input, select, textarea {
 
 	#intro {
 		background-attachment: fixed;
-		background-image: url("../img/intro/introkfood4.jpg");
+		background-image: url("../img/intro/intro3.png");
 		background-position: top right;
 		background-repeat: no-repeat;
 		background-size: 100% 100%;
@@ -3748,9 +3748,9 @@ input, select, textarea {
 
 		}
 
-/* Estilos para el botón del menú (visible solo en móviles) */
+/* estilos botón del menú visible telefono*/
 #menu-toggle {
-    display: none; /* Por defecto, oculto */
+    display: none;
     position: fixed;
     top: 1em;
     right: 1em;
@@ -3787,10 +3787,14 @@ input, select, textarea {
     transform: translateX(0);
 }
 
-.is-menu-visible #wrapper {
-    transform: translateX(99%);
-    transition: transform 0.35s ease;
-}
+
+/* .is-menu-visible #wrapper {
+     Mueve el contenido principal para que el sidebar se vea 
+     transform: translateX(80%);
+    transition: transform 0.35s ease; 
+} */
+
+
 
 /* Estilos del botón/icono */
 #menu-toggle {
@@ -3800,14 +3804,16 @@ input, select, textarea {
 }
 
 #menu-toggle i {
-    font-size: 1.5em; /*tamaño de icono */
+    font-size: 1.5em;
 }
 @media screen and (max-width: 736px) {
+    
     #menu-toggle {
-        display: block !important;
+        display: block !important; 
+        
     }
     
-    /* estilo y posición botn cerrar(times)*/
+    /*estilo y posicion del botoncerrar*/
     #menu-close {
         display: block;
         position: absolute;
@@ -3816,11 +3822,10 @@ input, select, textarea {
         z-index: 10002;
         padding: 0.5em 0.8em;
         background: transparent;
-        color: #e2e2e2; /* Color'X' */
+        color: #e2e2e2; /*color de'X' */
 		font-size: 1.2em;
     }
 
-    /*ocultar botón abrir cuando el menu está abierto*/
     .is-menu-visible #menu-toggle {
         display: none !important;
     }
@@ -3850,8 +3855,8 @@ input, select, textarea {
     width: 130px;
     height: 130px;
     border-radius: 100px; 
-    /*object-fit: cover;  Asegura que la imagen llene el círculo */
-    margin-right: 50px; /* Espacio a la derecha de la imagen para separarla del texto */
+    /*object-fit: cover; la imagen llene el círculo */
+    margin-right: 50px; /* Espacio a la derecha de imagen separarla texto */
 }
 .menu-text {
     flex-grow: 1; 
